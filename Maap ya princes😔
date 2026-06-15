@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maaf ya Sayang... ❤️</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffe6e6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .card {
+            background-color: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+        .photo-placeholder {
+            width: 180px;
+            height: 240px;
+            border-radius: 15px;
+            object-fit: cover;
+            border: 4px solid #ff9999;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+        .btn-container {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+        .btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.2s;
+            width: 100%;
+        }
+        .btn:active {
+            transform: scale(0.95);
+        }
+        .btn-red {
+            background-color: #ff4d4d;
+            color: white;
+        }
+        .btn-red:hover {
+            background-color: #ff1a1a;
+        }
+        .btn-blue {
+            background-color: #3399ff;
+            color: white;
+        }
+        .btn-blue:hover {
+            background-color: #0077e6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- Foto Anda berdua sudah dimasukkan langsung di bawah ini -->
